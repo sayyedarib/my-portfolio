@@ -1,7 +1,9 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
+  credit:
+  <a href="https://github.com/soumyajit4419/Portfolio" target="_blank">soumyajit</a>
 </h2>
+<h1 align="center" >Aarib's Porfolio</h1>
 <div align="center">
 
 ![Screenshot_1](https://user-images.githubusercontent.com/90370535/224508782-72b749c8-2ff5-40b9-955f-05c9417e6979.jpg)
