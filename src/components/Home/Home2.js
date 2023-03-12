@@ -4,10 +4,9 @@ import myImg from "../../Assets/me.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaEnvelope, FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -41,6 +40,17 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+
+            <li className="social-icons">
+                <a
+                href="mailto:sayyedaribhussain4321@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaEnvelope />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/sayyedarib"
