@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import donorLink from "../../Assets/Projects/donorLink.jpg";
-import textUtils from "../../Assets/Projects/textUtils.jpg";
+import donorLink from "../../Assets/Projects/donorLink.png";
+import grabtern from "../../Assets/Projects/grabtern.png";
 import simonGame from "../../Assets/Projects/simonGame.jpg";
 
 function Projects() {
@@ -23,20 +23,20 @@ function Projects() {
               imgPath={donorLink}
               isBlog={false}
               title="DonorLink"
-              description=" (backend has not been deployed yet so demo won't work properly) Unified platform of donation where volunteer can join us and people can donate food and cloth. Instant email will be sent to the nearest volunteer "
+              description="Unified platform of donation where volunteer can join us and people can donate cloth and register themselves as blood donor. Volunteer can manage donations from dashboard "
               ghLink="https://github.com/sayyedarib/Donation"
-              demoLink="https://donation-frontend-olive.vercel.app/"
+              demoLink="https://donorlink-frontend-.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={textUtils}
+              imgPath={grabtern}
               isBlog={false}
-              title="Text-Utils"
-              description="A static webpage made by using react. Just write or paste the text and count number of words, reading time, convert lower to uppercase, uppercase to lowercase"
-              ghLink="https://github.com/sayyedarib/TextUtils"
-              demoLink="https://text-utils-eight-gilt.vercel.app/"
+              title="Grabtern"
+              description="A platfrom that connects senior students having cracked good internship with juniors to guide them"
+              ghLink="https://github.com/anmode/grabtern-frontend"
+              demoLink="https://www.grabtern.com/"
             />
           </Col>
 
